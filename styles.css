@@ -1,0 +1,76 @@
+body{
+    background: #CAC531;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    height: 40px;
+    margin-top: -5px;
+}
+.box{
+    width: 700px;
+    height: 80vh;
+    background-color: #dfdede;
+    margin: 0 auto;
+}
+input{
+    border: 0; 
+    padding: 5px; 
+    border: 1px solid #421; 
+    width: 700px;
+    text-align: center;
+    bottom: 0;
+}
+span {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.container {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+.chat {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 95%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.icon {
+	height: 25px;
+}
+#bot {
+	margin-left: auto;
+}
+.response {
+	display: flex;
+	align-items: center;
+	margin: 1%;
+}
+@media only screen and (max-width: 704px){
+    .container {
+        flex-direction: column; 
+        justify-content: flex-start;
+    }
+    .box {
+        width: 75vw;
+        margin: 10vw;
+    }
+    input{
+        width: 100%;
+    }
+}
